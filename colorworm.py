@@ -24,10 +24,10 @@ def render_worm(window, y, x, body):
             
             if c == 1:
                 ch = '*'
-                color = c
+                color = COLOR_HEAD
             elif c == 2:
                 ch = '+'
-                color = c
+                color = COLOR_BODY
             else:
                 continue
             
